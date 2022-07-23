@@ -7,8 +7,12 @@
       <meta name="keywords" content="HTML, CSS, JavaScript">
       <meta name="author" content="John Doe">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://opentestimonials.com/api/embed/styles.css" type="text/css" />
    </head>
       <frameset rows="100%">
          <frame src="https://www.loom.com/embed/304d167003254c73b5ebefa6dfbfef48" frameborder="0" marginwidth="0" scrolling="no" noresize="noresize"/>
       </frameset>
+   <H2>Testimonials:</H2>
+   <div id="open-testimonials" />
+<script>(async()=>{let a=document.getElementById("open-testimonials"),b=await (await fetch("https://opentestimonials.com/api/embed/edge/suleman")).text();a.innerHTML=b})()</script>
 </html>
